@@ -9,5 +9,5 @@ This project is for beginners who wants to learn storage term Dedupe. This proje
 1. Start the server daemon process as below. ./serverd_dedupe this process will read on-disk dedupe chunks which will be used for reference while writing/reading, and it creates a in memory hash table of the read chunks. 
 2. Run the client utility to request write/read the data to/from dedupe chunks. Write a file using dedupe -w option is used for write and -r is used for read/restore.
 
-## ./util_dedupe -w -i filename
-## ./util_dedupe -r -i filename -o filename_restore
+### ./util_dedupe -w -i filename
+### ./util_dedupe -r -i filename -o filename_restore
